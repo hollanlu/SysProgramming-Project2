@@ -35,7 +35,7 @@ etype popQueue(queue qu)
 	if (isEmptyQueue(qu))
 		return 0;
 	el = qu.data[qu.top];
-	qu.top = qu.top--;
+	qu.top--;
 	return el;
 }
 
