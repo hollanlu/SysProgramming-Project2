@@ -69,8 +69,9 @@ int main(int argc, char* argv[])
 	
 	ltype addIdent = NULL;
 	etype addLine = 0;
+	
 	// write identifiers to out file
-	while (isEmptyList != 1)
+	while (isEmptyList(head) != 1)
 	{
 		addIdent = popList(head);
 		addLine = popQueue(qu);
